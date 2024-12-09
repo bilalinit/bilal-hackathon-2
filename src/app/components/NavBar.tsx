@@ -68,7 +68,7 @@ const NavBar = () => {
                 <div className=" w-auto h-auto absolute top-[16.5px]  ">
                     <ul className="flex gap-[15px] items-center justify-center font-montserrat font-bold text-[14px] leading-[24px] tracking-[0.2px] text-center cursor-pointer text-[#737373]">
                         <li>Home</li>
-                        <li></li>
+                        <li><Image src={drop} alt="twiter logo" /> </li>
                         <li>About</li>
                         <li>Blog</li>
                         <li>Contact</li>
