@@ -20,8 +20,8 @@ import searchxs from "../assets/search xs.png"
 
 const NavBar = () => {
   return (
-    <div className=" md:w-[1439px] md:h-[136px] xs:w-[414px] xs:h-[532px] bg-white relative">
-        <div id="nav dark" className=" w-[1439px] h-[58px] bg-[#252B42] md:block xs:hidden ">
+    <div className=" sm:w-[1439px] sm:h-[136px] w-[414px] h-[532px] bg-white relative ">
+        <div id="nav dark" className=" w-[1439px] h-[58px] bg-[#252B42] sm:block hidden ">
             <div className=" w-[1439px] h-[46px] absolute top-[9px] left-[2px]">
                 <div className=" w-[1438px] h-[46px]">
                     <div className=" w-[1438px] h-[46px] flex justify-between px-[24px]">
@@ -45,16 +45,16 @@ const NavBar = () => {
         </div>
 
 
-        <div id="nav light" className="w-[1437px] h-[58px] md:top-[70px] flex absolute">
-            <div className="w-[187px] relative h-[58px] md:left-[38px]  md:top-[0px] xs:top-[23px] xs:left-[35px] ">
+        <div id="nav light" className="w-[1437px] h-[58px] sm:top-[70px] flex absolute">
+            <div className="w-[187px] relative h-[58px] sm:left-[38px]  sm:top-[0px] top-[23px] left-[35px] ">
                 <h3 className="font-montserrat font-bold text-[24px] leading-[24px] tracking-[0.2px] absolute top-[13px]  ">Bandage</h3>
             </div>
 
-            <Image src={searchxs} alt="dropdown icon" className=" xs:block md:hidden w-[24px] h-[24px] absolute top-[40px] left-[248px]  " />
-            <Image src={cartxs} alt="dropdown icon" className=" xs:block md:hidden w-[24px] h-[22.4px] absolute top-[41px] left-[296px] " />
-            <Image src={menuxs} alt="dropdown icon" className=" xs:block md:hidden w-[24px] h-[13.71px] absolute top-[45px] left-[352px]  " />
+            <Image src={searchxs} alt="dropdown icon" className=" block sm:hidden w-[24px] h-[24px] absolute top-[40px] left-[248px]  " />
+            <Image src={cartxs} alt="dropdown icon" className=" block sm:hidden w-[24px] h-[22.4px] absolute top-[41px] left-[296px] " />
+            <Image src={menuxs} alt="dropdown icon" className=" block sm:hidden w-[24px] h-[13.71px] absolute top-[45px] left-[352px]  " />
 
-            <div className="h-auto w-auto absolute top-[164px] left-[164px] xs:flex md:hidden flex items-center justify-center flex-col gap-[30px]">
+            <div className="h-auto w-auto absolute top-[164px] left-[164px] flex sm:hidden flex items-center justify-center flex-col gap-[30px]">
                 <p className=" font-montserrat font-normal text-[30px] leading-[45px] tracking-[0.2px] text-[#737373] text-center cursor-pointer">Home</p>
                 <p className=" font-montserrat font-normal text-[30px] leading-[45px] tracking-[0.2px] text-[#737373] text-center cursor-pointer">Product</p>
                 <p className=" font-montserrat font-normal text-[30px] leading-[45px] tracking-[0.2px] text-[#737373] text-center cursor-pointer ">Pricing</p>
@@ -64,7 +64,7 @@ const NavBar = () => {
 
 
 
-            <div className="w-[1155px] h-[58px] absolute left-[265px] md:block  xs:hidden ">
+            <div className="w-[1155px] h-[58px] absolute left-[265px] sm:block  hidden ">
                 <div className=" w-auto h-auto absolute top-[16.5px]  ">
                     <ul className="flex gap-[15px] items-center justify-center font-montserrat font-bold text-[14px] leading-[24px] tracking-[0.2px] text-center cursor-pointer text-[#737373]">
                         <li>Home</li>
