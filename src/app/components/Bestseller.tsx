@@ -1,5 +1,4 @@
-import Image from "next/image"
-import color from "../assets/product-colors.png"
+
 import Bestcard from "./bestcard"
 
 const data = [
@@ -35,9 +34,9 @@ const Bestseller = () => {
             <p className="font-montserrat font-normal text-[14px] leading-[20px] tracking-[0.2px] ">Problems trying to resolve the conflict between </p>
         </div>
         <div id="main-cards" className=" grid sm:grid-cols-4 grid-cols-1 gap-[30px]">
-            {data.map((elem)=>{
+            {data.map((elem , index )=>{
                 return (
-                    <Bestcard image={elem.image} />
+                    <Bestcard key={index} image={elem.image} />
                 )
             })}
         </div>

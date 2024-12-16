@@ -21,8 +21,8 @@ const Card88 = (props :typeprop) => {
                 <p className="font-montserrat font-normal text-[12px] leading-[16px] tracking-[0.2px]">New</p>
             </div>
         <h4 className="font-montserrat font-normal text-[14px] leading-[20px] tracking-[0.2px] ">Loudest à la Madison #1 
-        (L'integral)</h4>
-        <p>We focus on ergonomics and meeting you where you work. It's only a keystroke away.</p>
+        Lintegral</h4>
+        <p>We focus on ergonomics and meeting you where you work. Its only a keystroke away.</p>
         <Image src={new1} alt="" />
         <Image src={new2} alt="" />
 </div>
