@@ -1,4 +1,5 @@
 import Image from "next/image"
+import Link from "next/link"
 import phone from "../assets/phone.png"
 import mail from "../assets/mail.png"
 import insta from "../assets/insta.png"
@@ -20,11 +21,11 @@ import searchxs from "../assets/search xs.png"
 
 const NavBar = () => {
   return (
-    <div className=" sm:w-[1439px] sm:h-[136px] w-[414px] h-[532px] bg-white relative ">
-        <div id="nav dark" className=" w-[1439px] h-[58px] bg-[#252B42] sm:block hidden ">
-            <div className=" w-[1439px] h-[46px] absolute top-[9px] left-[2px]">
-                <div className=" w-[1438px] h-[46px]">
-                    <div className=" w-[1438px] h-[46px] flex justify-between px-[24px]">
+    <div className=" sm:w-[1440px] sm:h-[136px] w-[414px] h-[532px] bg-white">
+        <div id="nav dark" className=" h-[58px] pt-[9px] bg-[#252B42] sm:block hidden ">
+            <div className=" h-[46px] ">
+                <div className="  h-[46px]">
+                    <div className="  h-[46px] flex justify-between px-[24px]">
                         <div className=" flex">
                            <Image src={phone} alt="phone" className=""/>
                            <Image src={mail} alt="phone" className=""/>
@@ -45,27 +46,32 @@ const NavBar = () => {
         </div>
 
 
-        <div id="nav light" className="w-[1437px] h-[58px] sm:top-[70px] flex absolute">
-            <div className="w-[187px] relative h-[58px] sm:left-[38px]  sm:top-[0px] top-[23px] left-[35px] ">
-                <h3 className="font-montserrat font-bold text-[24px] leading-[24px] tracking-[0.2px] absolute top-[13px]  ">Bandage</h3>
+        <div id="nav light" className=" h-[58px] mt-[12px] flex pl-[38px]  ">
+            <div className="w-[187px] h-[58px] sm:left-[38px]   pt-[13px] sm:block hidden">
+                <h3 className="font-montserrat font-bold text-[24px] leading-[24px] tracking-[0.2px]  ">Bandage</h3>
+            </div>
+           <div className="flex flex-col gap-[83px] sm:hidden "> 
+                <div className="flex items-center gap-[28px]">
+                    <div className="w-[187px] h-[58px] sm:left-[38px]   pt-[13px]">
+                        <h3 className="font-montserrat font-bold text-[24px] leading-[24px] tracking-[0.2px]  ">Bandage</h3>
+                    </div>
+                    <Image src={searchxs} alt="dropdown icon" className=" block sm:hidden w-[24px] h-[24px]   " />
+                    <Image src={cartxs} alt="dropdown icon" className=" block sm:hidden w-[24px] h-[22.4px]   " />
+                    <Image src={menuxs} alt="dropdown icon" className=" block sm:hidden w-[24px] h-[13.71px]  " />
+                </div>
+
+                <div className="h-auto w-auto   top-[164px] left-[164px] flex sm:hidden  items-center justify-center flex-col gap-[30px]">
+                    <Link href={"/"} ><p className=" font-montserrat font-normal text-[30px] leading-[45px] tracking-[0.2px] text-[#737373] text-center cursor-pointer">Home</p></Link>
+                    <Link href={"/productdetails"} ><p className=" font-montserrat font-normal text-[30px] leading-[45px] tracking-[0.2px] text-[#737373] text-center cursor-pointer">Product</p></Link>
+                    <Link href={"/productlisting"} ><p className=" font-montserrat font-normal text-[30px] leading-[45px] tracking-[0.2px] text-[#737373] text-center cursor-pointer ">Pricing</p></Link>
+                    <Link href={"/"} ><p className=" font-montserrat font-normal text-[30px] leading-[45px] tracking-[0.2px] text-[#737373] text-center cursor-pointer ">Contact</p></Link>
+                </div>
             </div>
 
-            <Image src={searchxs} alt="dropdown icon" className=" block sm:hidden w-[24px] h-[24px] absolute top-[40px] left-[248px]  " />
-            <Image src={cartxs} alt="dropdown icon" className=" block sm:hidden w-[24px] h-[22.4px] absolute top-[41px] left-[296px] " />
-            <Image src={menuxs} alt="dropdown icon" className=" block sm:hidden w-[24px] h-[13.71px] absolute top-[45px] left-[352px]  " />
-
-            <div className="h-auto w-auto absolute top-[164px] left-[164px] flex sm:hidden flex items-center justify-center flex-col gap-[30px]">
-                <p className=" font-montserrat font-normal text-[30px] leading-[45px] tracking-[0.2px] text-[#737373] text-center cursor-pointer">Home</p>
-                <p className=" font-montserrat font-normal text-[30px] leading-[45px] tracking-[0.2px] text-[#737373] text-center cursor-pointer">Product</p>
-                <p className=" font-montserrat font-normal text-[30px] leading-[45px] tracking-[0.2px] text-[#737373] text-center cursor-pointer ">Pricing</p>
-                <p className=" font-montserrat font-normal text-[30px] leading-[45px] tracking-[0.2px] text-[#737373] text-center cursor-pointer ">Contact</p>
-            </div>
 
 
-
-
-            <div className="w-[1155px] h-[58px] absolute left-[265px] sm:block  hidden ">
-                <div className=" w-auto h-auto absolute top-[16.5px]  ">
+            <div className="w-[1155px] h-[58px] items-center sm:flex  hidden ">
+                <div className=" w-auto h-auto  mr-[471px] ">
                     <ul className="flex gap-[15px] items-center justify-center font-montserrat font-bold text-[14px] leading-[24px] tracking-[0.2px] text-center cursor-pointer text-[#737373]">
                         <li>Home</li>
                         <li><Image src={drop} alt="twiter logo" /> </li>
@@ -75,7 +81,7 @@ const NavBar = () => {
                         <li>Pages</li>
                     </ul>
                 </div>
-                <div className="w-auto h-auto absolute top-[2px] left-[832px]">
+                <div className="w-auto h-auto   ">
                     <ul className=" flex  items-center">
                         <li className="w-[166px] h-[54px] "> <Image src={login} alt="dropdown icon" /> </li>
                         <li className="w-[46px] h-[46px] "><Image src={search} alt="dropdown icon" /></li>

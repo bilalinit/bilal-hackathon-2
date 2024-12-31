@@ -17,7 +17,7 @@ const Universe = () => {
                     <button className="font-montserrat font-bold text-[14px] leading-[22px] tracking-[0.2px] py-[15px] px-[40px] rounded-[5px] border border-[#23A6F0] text-[#23A6F0] sm:border-[#2DC071] sm:text-[#2DC071] text-nowrap">READ MORE</button>
                 </div>
             </div>
-            <Image src={herosml} alt=""/>
+            <Image src={herosml} alt="" className="sm:hidden"/>
         </div>
     </div>
   )

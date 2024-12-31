@@ -24,7 +24,7 @@ const Card88 = (props :typeprop) => {
         Lintegral</h4>
         <p>We focus on ergonomics and meeting you where you work. Its only a keystroke away.</p>
         <Image src={new1} alt="" />
-        <Image src={new2} alt="" />
+        <Image src={new2} alt="" /> 
 </div>
 </div>
   )

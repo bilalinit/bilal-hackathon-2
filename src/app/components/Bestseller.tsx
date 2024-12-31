@@ -6,21 +6,21 @@ const data = [
         image: "bg-[url('/1.jpg')]"
     },
     {
-        image: "bg-[url('/1.jpg')]"
+        image: "bg-[url('/2.jpg')]"
     },    {
-        image: "bg-[url('/1.jpg')]"
+        image: "bg-[url('/3.jpg')]"
     },    {
-        image: "bg-[url('/1.jpg')]"
+        image: "bg-[url('/4.jpg')]"
     },    {
-        image: "bg-[url('/1.jpg')]"
+        image: "bg-[url('/5.jpg')]"
     },    {
-        image: "bg-[url('/1.jpg')]"
+        image: "bg-[url('/6.jpg')]"
     },
     {
-        image: "bg-[url('/1.jpg')]"
+        image: "bg-[url('/7.jpg')]"
     },
     {
-        image: "bg-[url('/1.jpg')]"
+        image: "bg-[url('/8.jpg')]"
     },
 ]
 
