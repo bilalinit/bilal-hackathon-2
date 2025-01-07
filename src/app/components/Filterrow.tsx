@@ -7,7 +7,7 @@ import down2 from "../assets/down2.png"
 
 const Filterrow = () => {
   return (
-    <div className="sm:w-[1440px] w-[414px] bg-[#FFFFFF] sm:px-[195px] px-[80px] py-[24px] ">
+    <div className=" bg-[#FFFFFF] sm:px-[10.16vw] px-[4.17vw] py-[24px] ">
         <div className=" sm:flex sm:flex-row flex flex-col  items-center justify-between sm:gap-0 gap-6   ">
             <h6 className="font-montserrat font-bold text-[14px] leading-[24px] tracking-[0.2px]">Showing all 12 results</h6>
             <div className="flex gap-[15px] items-center">

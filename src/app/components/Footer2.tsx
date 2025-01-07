@@ -3,17 +3,17 @@ import img from "../assets/social media.png"
 
 const Footer2 = () => {
   return (
-    <div className=" sm:w-[1440px] w-[414px] ">
-    <div id="upper-div" className=" sm:flex flex flex-col sm:px-[195px] px-[47px] bg-white ">
-        <div className=" sm:flex sm:flex-row flex flex-col sm:gap-[768px] gap-[24px] my-[53px]">
+    <div className="  ">
+    <div id="upper-div" className=" sm:flex flex flex-col sm:px-[10.16vw] px-[5.44vw] bg-white ">
+        <div className=" sm:flex sm:flex-row flex flex-col sm:gap-[60vw] gap-[24px] my-[53px]">
             <h3 className="font-montserrat font-bold text-[24px] leading-[32px] tracking-[0.1px]">Bandage</h3>
             <Image src={img} alt="" className="h-[24px]"/>
         </div>
     </div>
 
-    <div id="div-2" className=" flex  sm:pl-[195px] pl-[46px] pr-[204px] ">
+    <div id="div-2" className=" flex sm:pl-[10.16vw] pl-[5.39vw] pr-[10.63vw] ">
         <div className=" py-[50px]">
-            <div className="sm:flex sm:flex-row flex flex-col gap-[30px]">
+            <div className="grid lg:grid-cols-5 md:grid-cols-3 sm:grid-cols-2  grid-cols-1 gap-[30px]">
                 <div id="first-container" className=" w-[148px] flex flex-col gap-[20px] text-nowrap">
                     <h5 id="heading" className="font-montserrat font-bold text-[16px] leading-[24px] tracking-[0.1px] flex flex-col gap-[20px] text-[#252B42]">Company Info</h5>
                     <div id="contant-container" className=" flex flex-col gap-[10px]">

@@ -37,8 +37,8 @@ const data = [
 
 const Container3 = () => {
   return (
-    <div className="sm:w-[1440px] w-[414px] sm:px-[176px] sm:py-0 px-[41px] py-[24px] bg-[#FAFAFA]">
-        <div id="card-div" className=" sm:flex sm:flex-row flex flex-col gap-[15px] sm:pb-[48px]">
+    <div className=" sm:px-[9.17vw] sm:py-0 px-[41px] py-[24px] bg-[#FAFAFA]">
+        <div id="card-div" className=" sm:grid  flex flex-col items-center sm:grid-cols-2 md:grid-cols-4  lg:grid-cols-5 justify-center gap-[15px] sm:pb-[48px]">
            {data.map((elem)=>{
             return(
                 <Card4contain key={elem.id} image={elem.image} heading={elem.heading} paragraph={elem.paragraph} />

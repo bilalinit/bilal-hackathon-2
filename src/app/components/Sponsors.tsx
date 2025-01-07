@@ -8,8 +8,8 @@ import spon6 from "../assets/spon6.png"
 
 const Sponsors = () => {
   return (
-    <div className="sm:w-[1440px] w-[414px] sm:px-[195px] sm:py-[58px] px-0 py-[110px] bg-[#FAFAFA] ">
-    <div className="sm:flex sm:flex-row flex flex-col sm:gap-[30px] gap-[60px] items-center ">
+    <div className="sm:px-[20.16vw] sm:py-[58px] px-0 py-[110px] bg-[#FAFAFA] ">
+    <div className="sm:grid lg:grid-cols-6 md:grid-cols-3 sm:grid-cols-2  flex flex-col justify-center  sm:gap-[30px] gap-[60px] items-center ">
     <Image src={spon1} alt="" className=" " />
     <Image src={spon2} alt="" className=" " />
     <Image src={spon3} alt="" className=" " />

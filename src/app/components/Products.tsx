@@ -38,9 +38,9 @@ const data = [
 
 const Products = () => {
   return (
-    <div className="sm:w-[1440px] w-[414px] flex justify-center pt-[80px] pb-[48px] ">
+    <div className=" flex justify-center pt-[80px] pb-[48px] ">
     <div id="container" className=" flex flex-col gap-[48px] ">
-        <div id="main-cards" className=" grid sm:grid-cols-4 grid-cols-1 gap-[30px]">
+        <div id="main-cards" className=" grid sm:grid-cols-2 lg:grid-cols-4  grid-cols-1 gap-[30px]">
             {data.map((elem, index)=>{
                 return (
                     <Productcard key={index} image={elem.image} />
