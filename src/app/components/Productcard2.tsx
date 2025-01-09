@@ -12,9 +12,9 @@ import eye from "../assets/eye icon.png"
 
 const Productcard2 = () => {
   return (
-    <div className=" sm:w-[1440px] w-[414px] flex items-center justify-center ">
+    <div className="  flex items-center justify-center ">
     <div id=" container" className="w-auto h-auto pb-[48px]  ">
-        <div id="row" className=" flex sm:flex-row flex-col gap-[30px] ">
+        <div id="row" className=" flex lg:flex-row flex-col gap-[30px] ">
             <div id="col-md-6" className="sm:w-[510px] w-[348px]   sm:h-[550px]">
                 <div id="carousal2" className="sm:w-[506px] sm:h-[546px]  flex flex-col gap-[21px]">
                     <div className="bg-[url('/bg-img-sofa.jpg')] sm:w-[506px] flex justify-between sm:h-[450px] w-[348px] h-[277px] bg-cover sm:bg-center bg-left-bottom px-10 pt-[119px] sm:pt-[260px]">
@@ -40,7 +40,7 @@ const Productcard2 = () => {
                 <Image src={color} alt="" className="w-[150px] h-[30px] mt-[29px]"/>
 
                 <div id=" products actions" className="flex mt-[67px] gap-[10px] ">
-                    <button className="py-[10px] px-[20px] rounded-[5px] flex justify-center items-center bg-[#23A6F0]"><h6 className="font-montserrat font-bold text-[14px] leading-[24px] tracking-[0.2px] cursor-pointer text-white">Select Options</h6></button>
+                    <button className="py-[10px] px-[20px] rounded-[5px] flex justify-center items-center bg-[#23A6F0] hover:bg-blue-500"><h6 className="font-montserrat font-bold text-[14px] leading-[24px] tracking-[0.2px] cursor-pointer text-white">Select Options</h6></button>
                     <div className="w-[40px] h-[40px] flex items-center justify-center hover:bg-slate-200 rounded-lg cursor-pointer"><Image src={heart} alt="" className="w-[20px] h-[20px]"/></div>
                     <div className="w-[40px] h-[40px] flex items-center justify-center hover:bg-slate-200 rounded-lg cursor-pointer"><Image src={cart} alt="" className="w-[20px] h-[20px]"/></div>
                     <div className="w-[40px] h-[40px] flex items-center justify-center hover:bg-slate-200 rounded-lg cursor-pointer"><Image src={eye} alt="" className="w-[20px] h-[20px]"/></div>

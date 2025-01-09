@@ -10,7 +10,7 @@ import x2 from "../assets/x2.png"
 import down from "../assets/down.png"
 import ss from "../assets/ss.png"
 import ser from "../assets/ser.png"
-import cart2 from "../assets/cart2.png"
+import cart2 from "../assets/cartblue.png"
 import heart from "../assets/heart.png"
 import nav from "../assets/navbar icon.png"
 import ss2 from "../assets/ss2.png"
@@ -22,12 +22,12 @@ const Navbar2 = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   return (
     <div>
-    <div className="pl-[10.26vw] pr-[11.57vw] sm:block hidden pt-[9px] pb-[3px] bg-[#23856D]">
+    <div className="pl-[10.26vw] pr-[11.57vw] lg:block hidden pt-[9px] pb-[3px] bg-[#23856D]">
       <div className="sm:flex hidden gap-[30px]">
         <div
           id="phone-num"
-          className="flex gap-[5px] p-[10px] items-center justify-center"
-        >
+          className="flex gap-[5px] p-[10px] items-center justify-center">
+
           <Image src={cal} alt="" className="w-[16px] h-[16px]" />
           <div className="font-montserrat font-normal text-[12px] leading-[16px] tracking-[0.2px] text-white">
             (225) 555-0118
@@ -100,6 +100,7 @@ const Navbar2 = () => {
             </div>
             <Image src={ser} alt="" />
             <Image src={cart2} alt="" />
+            <p className="font-montserrat font-normal text-[12px] align-super leading-[18px] tracking-[0.2px] text-[#23A6F0]">1</p>
             <Image src={heart} alt="" />
           </div>
         </div>

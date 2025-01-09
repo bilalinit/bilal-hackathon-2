@@ -30,19 +30,19 @@ const data2 = [
 
 const Bestseller2 = () => {
   return (
-    <div className="sm:w-[1440px] w-[414px] flex justify-center pt-[80px] pb-[48px] bg-[#FAFAFA] ">
+    <div className=" flex justify-center pt-[80px] pb-[48px] bg-[#FAFAFA] ">
     <div id="container" className=" flex flex-col gap-[48px] ">
         <div>
-            <h3 className="font-montserrat font-bold text-[24px] leading-[32px] tracking-[0.1px]">BESTSELLER PRODUCTS</h3>
+            <h3 className="font-montserrat font-bold text-[24px]  leading-[32px] tracking-[0.1px]">BESTSELLER PRODUCTS</h3>
         </div>
-        <div id="main-cards" className=" grid sm:grid-cols-4 grid-cols-1 gap-[30px]">
+        <div id="main-cards" className=" grid lg:grid-cols-4  sm:grid-cols-2 grid-cols-1 gap-[30px]">
             {data.map((elem,index)=>{
                 return (
                     <Bestsellercard key={index} image={elem.image} />
                 )
             })}
         </div>
-        <div id="main-cards" className=" sm:grid hidden sm:grid-cols-4 grid-cols-1 gap-[30px]">
+        <div id="main-cards" className=" sm:grid hidden lg:grid-cols-4  sm:grid-cols-2 grid-cols-1 gap-[30px]">
             {data2.map((elem,index)=>{
                 return (
                     <Bestsellercard key={index} image={elem.image} />
